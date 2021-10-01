@@ -74,6 +74,7 @@ export type PlasmicHomepage__OverridesType = {
   banner?: p.Flex<"div">;
   bg?: p.Flex<"div">;
   logo?: p.Flex<typeof Logo>;
+  columns?: p.Flex<"div">;
   titleSubtitle?: p.Flex<typeof TitleSubtitle>;
   form?: p.Flex<typeof Form>;
   botao?: p.Flex<typeof Botao>;
@@ -206,53 +207,83 @@ function PlasmicHomepage__RenderFunc(props: {
               hasGap={true}
               className={classNames(defaultcss.all, sty.bg)}
             >
-              <Logo
-                data-plasmic-name={"logo"}
-                data-plasmic-override={overrides.logo}
-                className={classNames("__wab_instance", sty.logo)}
-              />
-
-              <div className={classNames(defaultcss.all, sty.freeBox__fnIu6)}>
-                <TitleSubtitle
-                  data-plasmic-name={"titleSubtitle"}
-                  data-plasmic-override={overrides.titleSubtitle}
-                  className={classNames("__wab_instance", sty.titleSubtitle)}
-                  farFarAwayBehindTheWordMountainsFarFromTheCountriesVokaliaAndConsonantiaThereLiveTheBlindTexts={p.renderPlasmicSlot(
-                    {
-                      defaultContents:
-                        "Um projeto completo pra você morar bem, com 12 opções de plantas, torre única e em uma excelente localização. Oben, muito acima do comum.",
-                      value:
-                        args.farFarAwayBehindTheWordMountainsFarFromTheCountriesVokaliaAndConsonantiaThereLiveTheBlindTexts
-                    }
-                  )}
-                  slot3={p.renderPlasmicSlot({
-                    defaultContents: "Conheça o Oben ",
-                    value: args.slot3
-                  })}
+              <div className={classNames(defaultcss.all, sty.freeBox___3RtFf)}>
+                <Logo
+                  data-plasmic-name={"logo"}
+                  data-plasmic-override={overrides.logo}
+                  className={classNames("__wab_instance", sty.logo)}
                 />
+
+                <Navigation
+                  className={classNames(
+                    "__wab_instance",
+                    sty.navigation__raeq6
+                  )}
+                >
+                  {p.renderPlasmicSlot({
+                    defaultContents: (
+                      <p.PlasmicLink
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.link___6S3Tg
+                        )}
+                        component={Link}
+                        href={"https://www.plasmic.app/" as const}
+                        platform={"nextjs"}
+                      >
+                        {"Politica de Privacidade"}
+                      </p.PlasmicLink>
+                    ),
+
+                    value: args.children
+                  })}
+                </Navigation>
               </div>
 
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__m7SeJ)}
+              <div
+                data-plasmic-name={"columns"}
+                data-plasmic-override={overrides.columns}
+                className={classNames(defaultcss.all, sty.columns)}
               >
-                <Form
-                  data-plasmic-name={"form"}
-                  data-plasmic-override={overrides.form}
-                  className={classNames("__wab_instance", sty.form)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__z6Nuy
+                <div className={classNames(defaultcss.all, sty.column__xxgqt)}>
+                  <TitleSubtitle
+                    data-plasmic-name={"titleSubtitle"}
+                    data-plasmic-override={overrides.titleSubtitle}
+                    className={classNames("__wab_instance", sty.titleSubtitle)}
+                    farFarAwayBehindTheWordMountainsFarFromTheCountriesVokaliaAndConsonantiaThereLiveTheBlindTexts={p.renderPlasmicSlot(
+                      {
+                        defaultContents:
+                          "Um projeto completo pra você morar bem, com 12 opções de plantas, torre única e em uma excelente localização. Oben, muito acima do comum.",
+                        value:
+                          args.farFarAwayBehindTheWordMountainsFarFromTheCountriesVokaliaAndConsonantiaThereLiveTheBlindTexts
+                      }
                     )}
+                    slot3={p.renderPlasmicSlot({
+                      defaultContents: "Conheça o Oben ",
+                      value: args.slot3
+                    })}
+                  />
+                </div>
+
+                <div className={classNames(defaultcss.all, sty.column___8Bcnx)}>
+                  <Form
+                    data-plasmic-name={"form"}
+                    data-plasmic-override={overrides.form}
+                    className={classNames("__wab_instance", sty.form)}
                   >
-                    {"Preencha o Formulário"}
-                  </div>
-                </Form>
-              </p.Stack>
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__z6Nuy
+                      )}
+                    >
+                      {"Preencha o Formulário"}
+                    </div>
+                  </Form>
+                </div>
+              </div>
 
               {(
                 hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
@@ -265,29 +296,6 @@ function PlasmicHomepage__RenderFunc(props: {
                 />
               ) : null}
             </p.Stack>
-
-            <Navigation
-              className={classNames("__wab_instance", sty.navigation__raeq6)}
-            >
-              {p.renderPlasmicSlot({
-                defaultContents: (
-                  <p.PlasmicLink
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.link___6S3Tg
-                    )}
-                    component={Link}
-                    href={"https://www.plasmic.app/" as const}
-                    platform={"nextjs"}
-                  >
-                    {"Politica de Privacidade"}
-                  </p.PlasmicLink>
-                ),
-
-                value: args.children
-              })}
-            </Navigation>
           </div>
 
           <div className={classNames(defaultcss.all, sty.freeBox__pKhgU)}>
@@ -745,6 +753,7 @@ const PlasmicDescendants = {
     "banner",
     "bg",
     "logo",
+    "columns",
     "titleSubtitle",
     "form",
     "botao",
@@ -789,9 +798,10 @@ const PlasmicDescendants = {
     "label",
     "svg"
   ],
-  banner: ["banner", "bg", "logo", "titleSubtitle", "form", "botao"],
-  bg: ["bg", "logo", "titleSubtitle", "form", "botao"],
+  banner: ["banner", "bg", "logo", "columns", "titleSubtitle", "form", "botao"],
+  bg: ["bg", "logo", "columns", "titleSubtitle", "form", "botao"],
   logo: ["logo"],
+  columns: ["columns", "titleSubtitle", "form"],
   titleSubtitle: ["titleSubtitle"],
   form: ["form"],
   botao: ["botao"],
@@ -867,6 +877,7 @@ type NodeDefaultElementType = {
   banner: "div";
   bg: "div";
   logo: typeof Logo;
+  columns: "div";
   titleSubtitle: typeof TitleSubtitle;
   form: typeof Form;
   botao: typeof Botao;
@@ -976,6 +987,7 @@ export const PlasmicHomepage = Object.assign(
     banner: makeNodeComponent("banner"),
     bg: makeNodeComponent("bg"),
     logo: makeNodeComponent("logo"),
+    columns: makeNodeComponent("columns"),
     titleSubtitle: makeNodeComponent("titleSubtitle"),
     form: makeNodeComponent("form"),
     botao: makeNodeComponent("botao"),
