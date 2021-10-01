@@ -34,9 +34,9 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Navigation from "../../Navigation"; // plasmic-import: suFVYL5EUe/component
-import Form from "../../Form"; // plasmic-import: pXYVMs4P-l/component
 import Logo from "../../Logo"; // plasmic-import: ynIdAZgZJy/component
 import TitleSubtitle from "../../TitleSubtitle"; // plasmic-import: BzXRBzu1sd/component
+import Form from "../../Form"; // plasmic-import: pXYVMs4P-l/component
 import Botao from "../../Botao"; // plasmic-import: 2B39Djfxdt/component
 
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: _eAYH824Sv/globalVariant
@@ -71,9 +71,9 @@ export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   banner?: p.Flex<"div">;
   bg?: p.Flex<"div">;
-  form?: p.Flex<typeof Form>;
   logo?: p.Flex<typeof Logo>;
   titleSubtitle?: p.Flex<typeof TitleSubtitle>;
+  form?: p.Flex<typeof Form>;
   botao?: p.Flex<typeof Botao>;
   frame?: p.Flex<"div">;
   rectangle?: p.Flex<"div">;
@@ -194,28 +194,6 @@ function PlasmicHomepage__RenderFunc(props: {
               hasGap={true}
               className={classNames(defaultcss.all, sty.bg)}
             >
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__m7SeJ)}
-              >
-                <Form
-                  data-plasmic-name={"form"}
-                  data-plasmic-override={overrides.form}
-                  className={classNames("__wab_instance", sty.form)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__z6Nuy
-                    )}
-                  >
-                    {"Preencha o Formulário"}
-                  </div>
-                </Form>
-              </p.Stack>
-
               <Logo
                 data-plasmic-name={"logo"}
                 data-plasmic-override={overrides.logo}
@@ -241,6 +219,28 @@ function PlasmicHomepage__RenderFunc(props: {
                   })}
                 />
               </div>
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.freeBox__m7SeJ)}
+              >
+                <Form
+                  data-plasmic-name={"form"}
+                  data-plasmic-override={overrides.form}
+                  className={classNames("__wab_instance", sty.form)}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__z6Nuy
+                    )}
+                  >
+                    {"Preencha o Formulário"}
+                  </div>
+                </Form>
+              </p.Stack>
 
               {(
                 hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
@@ -640,9 +640,9 @@ const PlasmicDescendants = {
     "root",
     "banner",
     "bg",
-    "form",
     "logo",
     "titleSubtitle",
+    "form",
     "botao",
     "frame",
     "rectangle",
@@ -675,11 +675,11 @@ const PlasmicDescendants = {
     "frame15",
     "rectangle15"
   ],
-  banner: ["banner", "bg", "form", "logo", "titleSubtitle", "botao"],
-  bg: ["bg", "form", "logo", "titleSubtitle", "botao"],
-  form: ["form"],
+  banner: ["banner", "bg", "logo", "titleSubtitle", "form", "botao"],
+  bg: ["bg", "logo", "titleSubtitle", "form", "botao"],
   logo: ["logo"],
   titleSubtitle: ["titleSubtitle"],
+  form: ["form"],
   botao: ["botao"],
   frame: ["frame", "rectangle"],
   rectangle: ["rectangle"],
@@ -719,9 +719,9 @@ type NodeDefaultElementType = {
   root: "div";
   banner: "div";
   bg: "div";
-  form: typeof Form;
   logo: typeof Logo;
   titleSubtitle: typeof TitleSubtitle;
+  form: typeof Form;
   botao: typeof Botao;
   frame: "div";
   rectangle: "div";
@@ -818,9 +818,9 @@ export const PlasmicHomepage = Object.assign(
     // Helper components rendering sub-elements
     banner: makeNodeComponent("banner"),
     bg: makeNodeComponent("bg"),
-    form: makeNodeComponent("form"),
     logo: makeNodeComponent("logo"),
     titleSubtitle: makeNodeComponent("titleSubtitle"),
+    form: makeNodeComponent("form"),
     botao: makeNodeComponent("botao"),
     frame: makeNodeComponent("frame"),
     rectangle: makeNodeComponent("rectangle"),
