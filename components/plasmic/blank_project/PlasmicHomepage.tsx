@@ -46,6 +46,8 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: c95mFDtsQD22zpZcHK8Lci/projectcss
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: oa15Iddil2/css
 
+import EssentialIconsRightArrowIcon from "./icons/PlasmicIcon__EssentialIconsRightArrow"; // plasmic-import: cx0O88xdAF/icon
+
 export type PlasmicHomepage__VariantMembers = {};
 
 export type PlasmicHomepage__VariantsArgs = {};
@@ -105,6 +107,16 @@ export type PlasmicHomepage__OverridesType = {
   rectangle14?: p.Flex<"div">;
   frame15?: p.Flex<"div">;
   rectangle15?: p.Flex<"div">;
+  project?: p.Flex<"div">;
+  projectCover?: p.Flex<"div">;
+  bg2?: p.Flex<"div">;
+  projectDetails?: p.Flex<"div">;
+  projectTitleDescription?: p.Flex<"div">;
+  projectTitle?: p.Flex<"div">;
+  projectDescription?: p.Flex<"div">;
+  button?: p.Flex<"div">;
+  label?: p.Flex<"div">;
+  svg?: p.Flex<"svg">;
 };
 
 export interface DefaultHomepageProps {
@@ -629,6 +641,98 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             </div>
           </div>
+
+          <div className={classNames(defaultcss.all, sty.freeBox__klKyI)}>
+            <div
+              data-plasmic-name={"project"}
+              data-plasmic-override={overrides.project}
+              className={classNames(defaultcss.all, sty.project)}
+            >
+              <div
+                data-plasmic-name={"projectCover"}
+                data-plasmic-override={overrides.projectCover}
+                className={classNames(defaultcss.all, sty.projectCover)}
+              >
+                <div
+                  data-plasmic-name={"bg2"}
+                  data-plasmic-override={overrides.bg2}
+                  className={classNames(defaultcss.all, sty.bg2)}
+                />
+              </div>
+
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"projectDetails"}
+                data-plasmic-override={overrides.projectDetails}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.projectDetails)}
+              >
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"projectTitleDescription"}
+                  data-plasmic-override={overrides.projectTitleDescription}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    sty.projectTitleDescription
+                  )}
+                >
+                  <div
+                    data-plasmic-name={"projectTitle"}
+                    data-plasmic-override={overrides.projectTitle}
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.projectTitle
+                    )}
+                  >
+                    {"Project Tite"}
+                  </div>
+
+                  <div
+                    data-plasmic-name={"projectDescription"}
+                    data-plasmic-override={overrides.projectDescription}
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.projectDescription
+                    )}
+                  >
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at."
+                    }
+                  </div>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"button"}
+                  data-plasmic-override={overrides.button}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.button)}
+                >
+                  <div
+                    data-plasmic-name={"label"}
+                    data-plasmic-override={overrides.label}
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.label
+                    )}
+                  >
+                    {"Get started"}
+                  </div>
+
+                  <EssentialIconsRightArrowIcon
+                    data-plasmic-name={"svg"}
+                    data-plasmic-override={overrides.svg}
+                    className={classNames(defaultcss.all, sty.svg)}
+                    role={"img"}
+                  />
+                </p.Stack>
+              </p.Stack>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -673,7 +777,17 @@ const PlasmicDescendants = {
     "frame14",
     "rectangle14",
     "frame15",
-    "rectangle15"
+    "rectangle15",
+    "project",
+    "projectCover",
+    "bg2",
+    "projectDetails",
+    "projectTitleDescription",
+    "projectTitle",
+    "projectDescription",
+    "button",
+    "label",
+    "svg"
   ],
   banner: ["banner", "bg", "logo", "titleSubtitle", "form", "botao"],
   bg: ["bg", "logo", "titleSubtitle", "form", "botao"],
@@ -710,7 +824,40 @@ const PlasmicDescendants = {
   frame14: ["frame14", "rectangle14"],
   rectangle14: ["rectangle14"],
   frame15: ["frame15", "rectangle15"],
-  rectangle15: ["rectangle15"]
+  rectangle15: ["rectangle15"],
+  project: [
+    "project",
+    "projectCover",
+    "bg2",
+    "projectDetails",
+    "projectTitleDescription",
+    "projectTitle",
+    "projectDescription",
+    "button",
+    "label",
+    "svg"
+  ],
+  projectCover: ["projectCover", "bg2"],
+  bg2: ["bg2"],
+  projectDetails: [
+    "projectDetails",
+    "projectTitleDescription",
+    "projectTitle",
+    "projectDescription",
+    "button",
+    "label",
+    "svg"
+  ],
+  projectTitleDescription: [
+    "projectTitleDescription",
+    "projectTitle",
+    "projectDescription"
+  ],
+  projectTitle: ["projectTitle"],
+  projectDescription: ["projectDescription"],
+  button: ["button", "label", "svg"],
+  label: ["label"],
+  svg: ["svg"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -753,6 +900,16 @@ type NodeDefaultElementType = {
   rectangle14: "div";
   frame15: "div";
   rectangle15: "div";
+  project: "div";
+  projectCover: "div";
+  bg2: "div";
+  projectDetails: "div";
+  projectTitleDescription: "div";
+  projectTitle: "div";
+  projectDescription: "div";
+  button: "div";
+  label: "div";
+  svg: "svg";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -852,6 +1009,16 @@ export const PlasmicHomepage = Object.assign(
     rectangle14: makeNodeComponent("rectangle14"),
     frame15: makeNodeComponent("frame15"),
     rectangle15: makeNodeComponent("rectangle15"),
+    project: makeNodeComponent("project"),
+    projectCover: makeNodeComponent("projectCover"),
+    bg2: makeNodeComponent("bg2"),
+    projectDetails: makeNodeComponent("projectDetails"),
+    projectTitleDescription: makeNodeComponent("projectTitleDescription"),
+    projectTitle: makeNodeComponent("projectTitle"),
+    projectDescription: makeNodeComponent("projectDescription"),
+    button: makeNodeComponent("button"),
+    label: makeNodeComponent("label"),
+    svg: makeNodeComponent("svg"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

@@ -104,6 +104,19 @@
           "cssFilePath": "plasmic/blank_project/PlasmicForm.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "Ny9SCMSTZO",
+          "name": "Video",
+          "type": "managed",
+          "projectId": "c95mFDtsQD22zpZcHK8Lci",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicVideo.tsx",
+          "importSpec": {
+            "modulePath": "Video.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicVideo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -111,6 +124,11 @@
           "id": "xjviC_Dak_",
           "name": "IconArrowIcon",
           "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__IconArrow.tsx"
+        },
+        {
+          "id": "cx0O88xdAF",
+          "name": "EssentialIconsRightArrowIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__EssentialIconsRightArrow.tsx"
         }
       ],
       "images": [
@@ -203,6 +221,11 @@
           "id": "tBX22a-_-8",
           "name": "Rectangle 15",
           "filePath": "../public/plasmic/blank_project/images/rectangle15.png"
+        },
+        {
+          "id": "3ihfT3oMz",
+          "name": "Cover 2",
+          "filePath": "../public/plasmic/blank_project/images/cover2.png"
         }
       ],
       "codeComponents": [],
