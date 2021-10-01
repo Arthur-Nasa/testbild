@@ -1,0 +1,41 @@
+.root {
+  width: 591px;
+  height: 143px;
+  display: block;
+  position: relative;
+}
+.freeBox___3MJFh {
+  display: flex;
+  position: absolute;
+  top: 79px;
+  left: 0px;
+  width: 591px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___3MJFh {
+    width: 380px;
+  }
+}
+.slotTargetFarFarAwayBehindTheWordMountainsFarFromTheCountriesVokaliaAndConsonantiaThereLiveTheBlindTexts {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.freeBox___8Mu0 {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.slotTargetSlot3 {
+  font-family: Oswald Medium;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: 0em;
+}

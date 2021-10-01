@@ -1,0 +1,53 @@
+.root {
+  width: 524px;
+  height: 108px;
+  display: block;
+  position: relative;
+}
+.freeBox__iiLcS {
+  display: inline-flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: 0px;
+  left: 0px;
+  width: auto;
+}
+.bg2 {
+  background: #dbaf61;
+  width: 524px;
+  height: 108px;
+  display: block;
+  box-shadow: 2px 4px 4px 2px #00000080;
+  flex-shrink: 0;
+}
+.svg {
+  position: absolute;
+  object-fit: cover;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  transform: scale(1, -1);
+  display: block;
+  transform-origin: top left;
+  top: 67px;
+  left: 379px;
+  overflow: hidden;
+}
+.freeBox__lJYsk {
+  display: flex;
+  position: absolute;
+  top: 34px;
+  left: 46px;
+  width: 405px;
+}
+.slotTargetOurShowcase {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: 0em;
+}

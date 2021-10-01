@@ -1,0 +1,801 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.navigation__nJdmI:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+}
+@media (max-width: 1920px) {
+  .navigation__nJdmI:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .navigation__nJdmI:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+    flex-shrink: 0;
+  }
+}
+.link__e4P1H {
+  position: relative;
+  font-family: Oswald Medium;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+.banner {
+  width: 1410px;
+  height: 814px;
+  display: block;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .banner {
+    height: 990px;
+    flex-shrink: 0;
+  }
+}
+.bg {
+  background: linear-gradient(#805c1c7a, #805c1c7a),
+    url("/plasmic/blank_project/images/contentImaBildLauroPortariaAltAjpg.jpeg") top 50% left 50% / 100% 100% repeat-y padding-box
+      border-box scroll;
+  width: 100%;
+  height: 779px;
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  flex-direction: row;
+  min-width: 0;
+}
+.bg > :global(.__wab_flex-container) {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .bg {
+    left: -896px;
+    top: -29px;
+    z-index: 1;
+    position: absolute;
+    background: linear-gradient(#805c1c7a, #805c1c7a),
+      url("/plasmic/blank_project/images/contentImaBildLauroPortariaAltAjpg.jpeg") right 0% bottom 27.52% / 100% 100% repeat-y
+        padding-box border-box scroll;
+    display: flex;
+    flex-direction: column;
+    width: 1974px;
+    height: 1021px;
+    padding-top: 20%;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .bg > :global(.__wab_flex-container) {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: calc(0px - 0%);
+    width: calc(100% + 0%);
+    margin-top: calc(0px - 0%);
+    height: calc(100% + 0%);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .bg > :global(.__wab_flex-container) > *,
+  .bg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .bg > :global(.__wab_flex-container) > picture > img,
+  .bg > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+.freeBox__m7SeJ {
+  display: flex;
+  position: fixed;
+  flex-direction: column-reverse;
+  top: -68px;
+  left: auto;
+  z-index: 1;
+  align-self: flex-end;
+  margin-left: 0%;
+  right: 26px;
+  bottom: 384px;
+  height: auto;
+}
+.freeBox__m7SeJ > :global(.__wab_flex-container) {
+  flex-direction: column-reverse;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__m7SeJ {
+    margin-top: calc(30% + 0%) !important;
+    top: 80px;
+    margin-left: calc(0% + 0%) !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__m7SeJ > :global(.__wab_flex-container) {
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: calc(0px - 0%);
+    width: calc(100% + 0%);
+    margin-top: calc(0px - 240px);
+    height: calc(100% + 240px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__m7SeJ > :global(.__wab_flex-container) > *,
+  .freeBox__m7SeJ > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__m7SeJ > :global(.__wab_flex-container) > picture > img,
+  .freeBox__m7SeJ
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0%;
+    margin-top: 240px;
+  }
+}
+.form:global(.__wab_instance) {
+  height: 448px;
+  position: fixed;
+  left: auto;
+  top: 168px;
+  z-index: 1;
+  right: 0;
+  bottom: 158px;
+  flex-shrink: 0;
+}
+@media (max-width: 1920px) {
+  .form:global(.__wab_instance) {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .form:global(.__wab_instance) {
+    align-self: center;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    margin-top: calc(50% + 240px) !important;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    margin-left: calc(0px + 0%) !important;
+  }
+}
+.text__z6Nuy {
+  height: auto;
+}
+.logo:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  height: 157px;
+  margin-left: 3em;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .logo:global(.__wab_instance) {
+    left: 134px;
+    top: -25px;
+    z-index: 1;
+    position: fixed;
+    width: 136px;
+    right: 1414px;
+    height: 182px;
+    margin-left: calc(3em + 0%) !important;
+    flex-shrink: 0;
+  }
+}
+.freeBox__fnIu6 {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  top: auto;
+  left: auto;
+  flex-wrap: wrap-reverse;
+  padding-top: 20%;
+  width: auto;
+  align-content: flex-end;
+  z-index: 1;
+  align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__fnIu6 {
+    width: 419px;
+    left: auto;
+    top: auto;
+    padding-top: 4%;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+}
+.titleSubtitle:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .titleSubtitle:global(.__wab_instance) {
+    align-self: flex-end;
+    left: 13px;
+    top: 60px;
+    z-index: 1;
+    position: fixed;
+    margin-top: 30%;
+    flex-shrink: 0;
+  }
+}
+.botao:global(.__wab_instance) {
+  position: absolute;
+  top: 765px;
+  left: 886px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .botao:global(.__wab_instance) {
+    z-index: 12;
+    left: -5px;
+    top: auto;
+    position: fixed;
+    width: 416px;
+    right: 999px;
+    bottom: 101px;
+    display: none;
+  }
+}
+.navigation__raeq6:global(.__wab_instance) {
+  position: absolute;
+  top: 79px;
+  left: 587px;
+  width: 100%;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .navigation__raeq6:global(.__wab_instance) {
+    z-index: 22;
+  }
+}
+.link___6S3Tg {
+  position: relative;
+  font-family: Oswald Medium;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+.freeBox__yCg5A {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  width: 100%;
+  min-width: 0;
+  border-bottom: 2px solid #dbaf61;
+}
+.text__npKQc {
+  position: relative;
+  text-align: left;
+  color: #dbaf61;
+  font-weight: 700;
+  font-size: 28px;
+}
+.freeBox__sXeOz {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__sXeOz {
+    margin-bottom: 5em;
+  }
+}
+.frame {
+  width: 200px;
+  height: 48px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle {
+  background: url("/plasmic/blank_project/images/rectangle.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__yQzk7 {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 5px;
+  left: 28.99%;
+  width: 48.5%;
+}
+.frame3 {
+  width: 200px;
+  height: 54px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle3 {
+  background: url("/plasmic/blank_project/images/rectangle4.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text___77Ymy {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 66.5%;
+}
+.frame2 {
+  width: 200px;
+  height: 48px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle2 {
+  background: url("/plasmic/blank_project/images/rectangle2.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__azPc4 {
+  display: block;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 5px;
+  left: 28.99%;
+  width: 62.5%;
+}
+.frame4 {
+  width: 200px;
+  height: 72px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle4 {
+  background: url("/plasmic/blank_project/images/rectangle5.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__bfKx0 {
+  display: block;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 55%;
+}
+.frame5 {
+  width: 200px;
+  height: 48px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle5 {
+  background: url("/plasmic/blank_project/images/rectangle3.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__wlXjy {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 14px;
+  left: 28.99%;
+  width: 69%;
+}
+.frame6 {
+  width: 200px;
+  height: 48px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle6 {
+  background: url("/plasmic/blank_project/images/rectangle6.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text___84Br {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 5px;
+  left: 28.99%;
+  width: 52%;
+}
+.frame8 {
+  width: 200px;
+  height: 72px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle8 {
+  background: url("/plasmic/blank_project/images/rectangle10.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__lATer {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 62.5%;
+}
+.frame7 {
+  width: 200px;
+  height: 72px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle7 {
+  background: url("/plasmic/blank_project/images/rectangle9.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__krJnr {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 64.5%;
+}
+.frame9 {
+  width: 200px;
+  height: 54px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle9 {
+  background: url("/plasmic/blank_project/images/rectangle8.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__cZbtk {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 56%;
+}
+.frame10 {
+  width: 200px;
+  height: 48px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle10 {
+  background: url("/plasmic/blank_project/images/rectangle7.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__tp3C {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 5px;
+  left: 28.99%;
+  width: 66.5%;
+}
+.frame12 {
+  width: 200px;
+  height: 48px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle12 {
+  background: url("/plasmic/blank_project/images/rectangle11.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__tEzo8 {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 5px;
+  left: 28.99%;
+  width: 68%;
+}
+.frame11 {
+  width: 200px;
+  height: 90px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle11 {
+  background: url("/plasmic/blank_project/images/rectangle14.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__mArBc {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 63%;
+}
+.frame13 {
+  width: 200px;
+  height: 72px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle13 {
+  background: url("/plasmic/blank_project/images/rectangle13.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text___6Cgif {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 71%;
+}
+.frame14 {
+  width: 200px;
+  height: 48px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle14 {
+  background: url("/plasmic/blank_project/images/rectangle12.jpeg") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text__jAtgL {
+  display: block;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 5px;
+  left: 28.99%;
+  width: 68%;
+}
+.frame15 {
+  width: 200px;
+  height: 108px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.rectangle15 {
+  background: url("/plasmic/blank_project/images/rectangle15.png") center center / cover no-repeat;
+  width: 24%;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+.text___12J8L {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18.399px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1px;
+  left: 28.99%;
+  width: 64.5%;
+}
