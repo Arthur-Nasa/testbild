@@ -74,38 +74,37 @@ export type PlasmicHomepage__OverridesType = {
   banner?: p.Flex<"div">;
   bg?: p.Flex<"div">;
   logo?: p.Flex<typeof Logo>;
-  columns?: p.Flex<"div">;
   titleSubtitle?: p.Flex<typeof TitleSubtitle>;
   form?: p.Flex<typeof Form>;
   botao?: p.Flex<typeof Botao>;
+  frame8?: p.Flex<"div">;
+  rectangle8?: p.Flex<"div">;
   frame?: p.Flex<"div">;
   rectangle?: p.Flex<"div">;
-  frame3?: p.Flex<"div">;
-  rectangle3?: p.Flex<"div">;
-  frame2?: p.Flex<"div">;
-  rectangle2?: p.Flex<"div">;
-  frame4?: p.Flex<"div">;
-  rectangle4?: p.Flex<"div">;
   frame5?: p.Flex<"div">;
   rectangle5?: p.Flex<"div">;
   frame6?: p.Flex<"div">;
   rectangle6?: p.Flex<"div">;
-  frame8?: p.Flex<"div">;
-  rectangle8?: p.Flex<"div">;
-  frame7?: p.Flex<"div">;
-  rectangle7?: p.Flex<"div">;
-  frame9?: p.Flex<"div">;
-  rectangle9?: p.Flex<"div">;
-  frame10?: p.Flex<"div">;
-  rectangle10?: p.Flex<"div">;
+  frame4?: p.Flex<"div">;
+  rectangle4?: p.Flex<"div">;
+  frame2?: p.Flex<"div">;
+  rectangle2?: p.Flex<"div">;
   frame12?: p.Flex<"div">;
   rectangle12?: p.Flex<"div">;
-  frame11?: p.Flex<"div">;
-  rectangle11?: p.Flex<"div">;
-  frame13?: p.Flex<"div">;
-  rectangle13?: p.Flex<"div">;
+  frame3?: p.Flex<"div">;
+  rectangle3?: p.Flex<"div">;
   frame14?: p.Flex<"div">;
   rectangle14?: p.Flex<"div">;
+  frame13?: p.Flex<"div">;
+  rectangle13?: p.Flex<"div">;
+  frame10?: p.Flex<"div">;
+  rectangle10?: p.Flex<"div">;
+  frame7?: p.Flex<"div">;
+  rectangle7?: p.Flex<"div">;
+  frame11?: p.Flex<"div">;
+  rectangle11?: p.Flex<"div">;
+  frame9?: p.Flex<"div">;
+  rectangle9?: p.Flex<"div">;
   frame15?: p.Flex<"div">;
   rectangle15?: p.Flex<"div">;
   project?: p.Flex<"div">;
@@ -241,10 +240,10 @@ function PlasmicHomepage__RenderFunc(props: {
                 </Navigation>
               </div>
 
-              <div
-                data-plasmic-name={"columns"}
-                data-plasmic-override={overrides.columns}
-                className={classNames(defaultcss.all, sty.columns)}
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.columns__zQzMh)}
               >
                 <div className={classNames(defaultcss.all, sty.column__xxgqt)}>
                   <TitleSubtitle
@@ -283,7 +282,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     </div>
                   </Form>
                 </div>
-              </div>
+              </p.Stack>
 
               {(
                 hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
@@ -311,343 +310,357 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             </div>
 
-            <div className={classNames(defaultcss.all, sty.freeBox__sXeOz)}>
-              <div
-                data-plasmic-name={"frame"}
-                data-plasmic-override={overrides.frame}
-                className={classNames(defaultcss.all, sty.frame)}
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.freeBox__sXeOz)}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.columns__ko6O0)}
               >
-                <div
-                  data-plasmic-name={"rectangle"}
-                  data-plasmic-override={overrides.rectangle}
-                  className={classNames(defaultcss.all, sty.rectangle)}
-                />
+                <div className={classNames(defaultcss.all, sty.column__gqib0)}>
+                  <div
+                    data-plasmic-name={"frame8"}
+                    data-plasmic-override={overrides.frame8}
+                    className={classNames(defaultcss.all, sty.frame8)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle8"}
+                      data-plasmic-override={overrides.rectangle8}
+                      className={classNames(defaultcss.all, sty.rectangle8)}
+                    />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__yQzk7
-                  )}
-                >
-                  {"Antissucção piscina"}
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__lATer
+                      )}
+                    >
+                      {"Medidores individuais para energia, água e gás"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame"}
+                    data-plasmic-override={overrides.frame}
+                    className={classNames(defaultcss.all, sty.frame)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle"}
+                      data-plasmic-override={overrides.rectangle}
+                      className={classNames(defaultcss.all, sty.rectangle)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__yQzk7
+                      )}
+                    >
+                      {"Antissucção piscina"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame5"}
+                    data-plasmic-override={overrides.frame5}
+                    className={classNames(defaultcss.all, sty.frame5)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle5"}
+                      data-plasmic-override={overrides.rectangle5}
+                      className={classNames(defaultcss.all, sty.rectangle5)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__wlXjy
+                      )}
+                    >
+                      {"Descarte seletivo"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame6"}
+                    data-plasmic-override={overrides.frame6}
+                    className={classNames(defaultcss.all, sty.frame6)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle6"}
+                      data-plasmic-override={overrides.rectangle6}
+                      className={classNames(defaultcss.all, sty.rectangle6)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___84Br
+                      )}
+                    >
+                      {"Sistema dual flush"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame4"}
+                    data-plasmic-override={overrides.frame4}
+                    className={classNames(defaultcss.all, sty.frame4)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle4"}
+                      data-plasmic-override={overrides.rectangle4}
+                      className={classNames(defaultcss.all, sty.rectangle4)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__bfKx0
+                      )}
+                    >
+                      {"Áreas de lazer entregues equipadas e decoradas"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame2"}
+                    data-plasmic-override={overrides.frame2}
+                    className={classNames(defaultcss.all, sty.frame2)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle2"}
+                      data-plasmic-override={overrides.rectangle2}
+                      className={classNames(defaultcss.all, sty.rectangle2)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__azPc4
+                      )}
+                    >
+                      {"Automação das áreas comuns"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame12"}
+                    data-plasmic-override={overrides.frame12}
+                    className={classNames(defaultcss.all, sty.frame12)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle12"}
+                      data-plasmic-override={overrides.rectangle12}
+                      className={classNames(defaultcss.all, sty.rectangle12)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__tEzo8
+                      )}
+                    >
+                      {"Wifi nas áreas de lazer"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame3"}
+                    data-plasmic-override={overrides.frame3}
+                    className={classNames(defaultcss.all, sty.frame3)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle3"}
+                      data-plasmic-override={overrides.rectangle3}
+                      className={classNames(defaultcss.all, sty.rectangle3)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___77Ymy
+                      )}
+                    >
+                      {"Ambientes internos de lazer climatizados"}
+                    </div>
+                  </div>
                 </div>
-              </div>
 
-              <div
-                data-plasmic-name={"frame3"}
-                data-plasmic-override={overrides.frame3}
-                className={classNames(defaultcss.all, sty.frame3)}
-              >
-                <div
-                  data-plasmic-name={"rectangle3"}
-                  data-plasmic-override={overrides.rectangle3}
-                  className={classNames(defaultcss.all, sty.rectangle3)}
-                />
+                <div className={classNames(defaultcss.all, sty.column__lN1Gc)}>
+                  <div
+                    data-plasmic-name={"frame14"}
+                    data-plasmic-override={overrides.frame14}
+                    className={classNames(defaultcss.all, sty.frame14)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle14"}
+                      data-plasmic-override={overrides.rectangle14}
+                      className={classNames(defaultcss.all, sty.rectangle14)}
+                    />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___77Ymy
-                  )}
-                >
-                  {"Ambientes internos de lazer climatizados"}
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__jAtgL
+                      )}
+                    >
+                      {"Ponto para carga de carro elétrico."}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame13"}
+                    data-plasmic-override={overrides.frame13}
+                    className={classNames(defaultcss.all, sty.frame13)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle13"}
+                      data-plasmic-override={overrides.rectangle13}
+                      className={classNames(defaultcss.all, sty.rectangle13)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___6Cgif
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Torneiras com temporizador nos sanitários das áreas de lazer"
+                        : "Torneiras com temporizador nos sanitários das áreas de lazer"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame10"}
+                    data-plasmic-override={overrides.frame10}
+                    className={classNames(defaultcss.all, sty.frame10)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle10"}
+                      data-plasmic-override={overrides.rectangle10}
+                      className={classNames(defaultcss.all, sty.rectangle10)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__tp3C
+                      )}
+                    >
+                      {"Estacionamento coberto"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame7"}
+                    data-plasmic-override={overrides.frame7}
+                    className={classNames(defaultcss.all, sty.frame7)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle7"}
+                      data-plasmic-override={overrides.rectangle7}
+                      className={classNames(defaultcss.all, sty.rectangle7)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__krJnr
+                      )}
+                    >
+                      {"Portas e guarnições com madeira certificada"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame11"}
+                    data-plasmic-override={overrides.frame11}
+                    className={classNames(defaultcss.all, sty.frame11)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle11"}
+                      data-plasmic-override={overrides.rectangle11}
+                      className={classNames(defaultcss.all, sty.rectangle11)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__mArBc
+                      )}
+                    >
+                      {
+                        "Esquadrias integradas com venezianas deslizantes nos dormitórios"
+                      }
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame9"}
+                    data-plasmic-override={overrides.frame9}
+                    className={classNames(defaultcss.all, sty.frame9)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle9"}
+                      data-plasmic-override={overrides.rectangle9}
+                      className={classNames(defaultcss.all, sty.rectangle9)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__cZbtk
+                      )}
+                    >
+                      {"Sensores de presença nas áreas comuns"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"frame15"}
+                    data-plasmic-override={overrides.frame15}
+                    className={classNames(defaultcss.all, sty.frame15)}
+                  >
+                    <div
+                      data-plasmic-name={"rectangle15"}
+                      data-plasmic-override={overrides.rectangle15}
+                      className={classNames(defaultcss.all, sty.rectangle15)}
+                    />
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___12J8L
+                      )}
+                    >
+                      {
+                        "Entradas independentes para moradores, visitantes e serviços com espera"
+                      }
+                    </div>
+                  </div>
                 </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame2"}
-                data-plasmic-override={overrides.frame2}
-                className={classNames(defaultcss.all, sty.frame2)}
-              >
-                <div
-                  data-plasmic-name={"rectangle2"}
-                  data-plasmic-override={overrides.rectangle2}
-                  className={classNames(defaultcss.all, sty.rectangle2)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__azPc4
-                  )}
-                >
-                  {"Automação das áreas comuns"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame4"}
-                data-plasmic-override={overrides.frame4}
-                className={classNames(defaultcss.all, sty.frame4)}
-              >
-                <div
-                  data-plasmic-name={"rectangle4"}
-                  data-plasmic-override={overrides.rectangle4}
-                  className={classNames(defaultcss.all, sty.rectangle4)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__bfKx0
-                  )}
-                >
-                  {"Áreas de lazer entregues equipadas e decoradas"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame5"}
-                data-plasmic-override={overrides.frame5}
-                className={classNames(defaultcss.all, sty.frame5)}
-              >
-                <div
-                  data-plasmic-name={"rectangle5"}
-                  data-plasmic-override={overrides.rectangle5}
-                  className={classNames(defaultcss.all, sty.rectangle5)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__wlXjy
-                  )}
-                >
-                  {"Descarte seletivo"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame6"}
-                data-plasmic-override={overrides.frame6}
-                className={classNames(defaultcss.all, sty.frame6)}
-              >
-                <div
-                  data-plasmic-name={"rectangle6"}
-                  data-plasmic-override={overrides.rectangle6}
-                  className={classNames(defaultcss.all, sty.rectangle6)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___84Br
-                  )}
-                >
-                  {"Sistema dual flush"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame8"}
-                data-plasmic-override={overrides.frame8}
-                className={classNames(defaultcss.all, sty.frame8)}
-              >
-                <div
-                  data-plasmic-name={"rectangle8"}
-                  data-plasmic-override={overrides.rectangle8}
-                  className={classNames(defaultcss.all, sty.rectangle8)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__lATer
-                  )}
-                >
-                  {"Medidores individuais para energia, água e gás"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame7"}
-                data-plasmic-override={overrides.frame7}
-                className={classNames(defaultcss.all, sty.frame7)}
-              >
-                <div
-                  data-plasmic-name={"rectangle7"}
-                  data-plasmic-override={overrides.rectangle7}
-                  className={classNames(defaultcss.all, sty.rectangle7)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__krJnr
-                  )}
-                >
-                  {"Portas e guarnições com madeira certificada"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame9"}
-                data-plasmic-override={overrides.frame9}
-                className={classNames(defaultcss.all, sty.frame9)}
-              >
-                <div
-                  data-plasmic-name={"rectangle9"}
-                  data-plasmic-override={overrides.rectangle9}
-                  className={classNames(defaultcss.all, sty.rectangle9)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__cZbtk
-                  )}
-                >
-                  {"Sensores de presença nas áreas comuns"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame10"}
-                data-plasmic-override={overrides.frame10}
-                className={classNames(defaultcss.all, sty.frame10)}
-              >
-                <div
-                  data-plasmic-name={"rectangle10"}
-                  data-plasmic-override={overrides.rectangle10}
-                  className={classNames(defaultcss.all, sty.rectangle10)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__tp3C
-                  )}
-                >
-                  {"Estacionamento coberto"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame12"}
-                data-plasmic-override={overrides.frame12}
-                className={classNames(defaultcss.all, sty.frame12)}
-              >
-                <div
-                  data-plasmic-name={"rectangle12"}
-                  data-plasmic-override={overrides.rectangle12}
-                  className={classNames(defaultcss.all, sty.rectangle12)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__tEzo8
-                  )}
-                >
-                  {"Wifi nas áreas de lazer"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame11"}
-                data-plasmic-override={overrides.frame11}
-                className={classNames(defaultcss.all, sty.frame11)}
-              >
-                <div
-                  data-plasmic-name={"rectangle11"}
-                  data-plasmic-override={overrides.rectangle11}
-                  className={classNames(defaultcss.all, sty.rectangle11)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__mArBc
-                  )}
-                >
-                  {
-                    "Esquadrias integradas com venezianas deslizantes nos dormitórios"
-                  }
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame13"}
-                data-plasmic-override={overrides.frame13}
-                className={classNames(defaultcss.all, sty.frame13)}
-              >
-                <div
-                  data-plasmic-name={"rectangle13"}
-                  data-plasmic-override={overrides.rectangle13}
-                  className={classNames(defaultcss.all, sty.rectangle13)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___6Cgif
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "Torneiras com temporizador nos sanitários das áreas de lazer"
-                    : "Torneiras com temporizador nos sanitários das áreas de lazer"}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame14"}
-                data-plasmic-override={overrides.frame14}
-                className={classNames(defaultcss.all, sty.frame14)}
-              >
-                <div
-                  data-plasmic-name={"rectangle14"}
-                  data-plasmic-override={overrides.rectangle14}
-                  className={classNames(defaultcss.all, sty.rectangle14)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__jAtgL
-                  )}
-                >
-                  {"Ponto para carga de carro elétrico."}
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"frame15"}
-                data-plasmic-override={overrides.frame15}
-                className={classNames(defaultcss.all, sty.frame15)}
-              >
-                <div
-                  data-plasmic-name={"rectangle15"}
-                  data-plasmic-override={overrides.rectangle15}
-                  className={classNames(defaultcss.all, sty.rectangle15)}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___12J8L
-                  )}
-                >
-                  {
-                    "Entradas independentes para moradores, visitantes e serviços com espera"
-                  }
-                </div>
-              </div>
-            </div>
+              </p.Stack>
+            </p.Stack>
           </div>
 
           <div className={classNames(defaultcss.all, sty.freeBox__klKyI)}>
@@ -753,38 +766,37 @@ const PlasmicDescendants = {
     "banner",
     "bg",
     "logo",
-    "columns",
     "titleSubtitle",
     "form",
     "botao",
+    "frame8",
+    "rectangle8",
     "frame",
     "rectangle",
-    "frame3",
-    "rectangle3",
-    "frame2",
-    "rectangle2",
-    "frame4",
-    "rectangle4",
     "frame5",
     "rectangle5",
     "frame6",
     "rectangle6",
-    "frame8",
-    "rectangle8",
-    "frame7",
-    "rectangle7",
-    "frame9",
-    "rectangle9",
-    "frame10",
-    "rectangle10",
+    "frame4",
+    "rectangle4",
+    "frame2",
+    "rectangle2",
     "frame12",
     "rectangle12",
-    "frame11",
-    "rectangle11",
-    "frame13",
-    "rectangle13",
+    "frame3",
+    "rectangle3",
     "frame14",
     "rectangle14",
+    "frame13",
+    "rectangle13",
+    "frame10",
+    "rectangle10",
+    "frame7",
+    "rectangle7",
+    "frame11",
+    "rectangle11",
+    "frame9",
+    "rectangle9",
     "frame15",
     "rectangle15",
     "project",
@@ -798,41 +810,40 @@ const PlasmicDescendants = {
     "label",
     "svg"
   ],
-  banner: ["banner", "bg", "logo", "columns", "titleSubtitle", "form", "botao"],
-  bg: ["bg", "logo", "columns", "titleSubtitle", "form", "botao"],
+  banner: ["banner", "bg", "logo", "titleSubtitle", "form", "botao"],
+  bg: ["bg", "logo", "titleSubtitle", "form", "botao"],
   logo: ["logo"],
-  columns: ["columns", "titleSubtitle", "form"],
   titleSubtitle: ["titleSubtitle"],
   form: ["form"],
   botao: ["botao"],
+  frame8: ["frame8", "rectangle8"],
+  rectangle8: ["rectangle8"],
   frame: ["frame", "rectangle"],
   rectangle: ["rectangle"],
-  frame3: ["frame3", "rectangle3"],
-  rectangle3: ["rectangle3"],
-  frame2: ["frame2", "rectangle2"],
-  rectangle2: ["rectangle2"],
-  frame4: ["frame4", "rectangle4"],
-  rectangle4: ["rectangle4"],
   frame5: ["frame5", "rectangle5"],
   rectangle5: ["rectangle5"],
   frame6: ["frame6", "rectangle6"],
   rectangle6: ["rectangle6"],
-  frame8: ["frame8", "rectangle8"],
-  rectangle8: ["rectangle8"],
-  frame7: ["frame7", "rectangle7"],
-  rectangle7: ["rectangle7"],
-  frame9: ["frame9", "rectangle9"],
-  rectangle9: ["rectangle9"],
-  frame10: ["frame10", "rectangle10"],
-  rectangle10: ["rectangle10"],
+  frame4: ["frame4", "rectangle4"],
+  rectangle4: ["rectangle4"],
+  frame2: ["frame2", "rectangle2"],
+  rectangle2: ["rectangle2"],
   frame12: ["frame12", "rectangle12"],
   rectangle12: ["rectangle12"],
-  frame11: ["frame11", "rectangle11"],
-  rectangle11: ["rectangle11"],
-  frame13: ["frame13", "rectangle13"],
-  rectangle13: ["rectangle13"],
+  frame3: ["frame3", "rectangle3"],
+  rectangle3: ["rectangle3"],
   frame14: ["frame14", "rectangle14"],
   rectangle14: ["rectangle14"],
+  frame13: ["frame13", "rectangle13"],
+  rectangle13: ["rectangle13"],
+  frame10: ["frame10", "rectangle10"],
+  rectangle10: ["rectangle10"],
+  frame7: ["frame7", "rectangle7"],
+  rectangle7: ["rectangle7"],
+  frame11: ["frame11", "rectangle11"],
+  rectangle11: ["rectangle11"],
+  frame9: ["frame9", "rectangle9"],
+  rectangle9: ["rectangle9"],
   frame15: ["frame15", "rectangle15"],
   rectangle15: ["rectangle15"],
   project: [
@@ -877,38 +888,37 @@ type NodeDefaultElementType = {
   banner: "div";
   bg: "div";
   logo: typeof Logo;
-  columns: "div";
   titleSubtitle: typeof TitleSubtitle;
   form: typeof Form;
   botao: typeof Botao;
+  frame8: "div";
+  rectangle8: "div";
   frame: "div";
   rectangle: "div";
-  frame3: "div";
-  rectangle3: "div";
-  frame2: "div";
-  rectangle2: "div";
-  frame4: "div";
-  rectangle4: "div";
   frame5: "div";
   rectangle5: "div";
   frame6: "div";
   rectangle6: "div";
-  frame8: "div";
-  rectangle8: "div";
-  frame7: "div";
-  rectangle7: "div";
-  frame9: "div";
-  rectangle9: "div";
-  frame10: "div";
-  rectangle10: "div";
+  frame4: "div";
+  rectangle4: "div";
+  frame2: "div";
+  rectangle2: "div";
   frame12: "div";
   rectangle12: "div";
-  frame11: "div";
-  rectangle11: "div";
-  frame13: "div";
-  rectangle13: "div";
+  frame3: "div";
+  rectangle3: "div";
   frame14: "div";
   rectangle14: "div";
+  frame13: "div";
+  rectangle13: "div";
+  frame10: "div";
+  rectangle10: "div";
+  frame7: "div";
+  rectangle7: "div";
+  frame11: "div";
+  rectangle11: "div";
+  frame9: "div";
+  rectangle9: "div";
   frame15: "div";
   rectangle15: "div";
   project: "div";
@@ -987,38 +997,37 @@ export const PlasmicHomepage = Object.assign(
     banner: makeNodeComponent("banner"),
     bg: makeNodeComponent("bg"),
     logo: makeNodeComponent("logo"),
-    columns: makeNodeComponent("columns"),
     titleSubtitle: makeNodeComponent("titleSubtitle"),
     form: makeNodeComponent("form"),
     botao: makeNodeComponent("botao"),
+    frame8: makeNodeComponent("frame8"),
+    rectangle8: makeNodeComponent("rectangle8"),
     frame: makeNodeComponent("frame"),
     rectangle: makeNodeComponent("rectangle"),
-    frame3: makeNodeComponent("frame3"),
-    rectangle3: makeNodeComponent("rectangle3"),
-    frame2: makeNodeComponent("frame2"),
-    rectangle2: makeNodeComponent("rectangle2"),
-    frame4: makeNodeComponent("frame4"),
-    rectangle4: makeNodeComponent("rectangle4"),
     frame5: makeNodeComponent("frame5"),
     rectangle5: makeNodeComponent("rectangle5"),
     frame6: makeNodeComponent("frame6"),
     rectangle6: makeNodeComponent("rectangle6"),
-    frame8: makeNodeComponent("frame8"),
-    rectangle8: makeNodeComponent("rectangle8"),
-    frame7: makeNodeComponent("frame7"),
-    rectangle7: makeNodeComponent("rectangle7"),
-    frame9: makeNodeComponent("frame9"),
-    rectangle9: makeNodeComponent("rectangle9"),
-    frame10: makeNodeComponent("frame10"),
-    rectangle10: makeNodeComponent("rectangle10"),
+    frame4: makeNodeComponent("frame4"),
+    rectangle4: makeNodeComponent("rectangle4"),
+    frame2: makeNodeComponent("frame2"),
+    rectangle2: makeNodeComponent("rectangle2"),
     frame12: makeNodeComponent("frame12"),
     rectangle12: makeNodeComponent("rectangle12"),
-    frame11: makeNodeComponent("frame11"),
-    rectangle11: makeNodeComponent("rectangle11"),
-    frame13: makeNodeComponent("frame13"),
-    rectangle13: makeNodeComponent("rectangle13"),
+    frame3: makeNodeComponent("frame3"),
+    rectangle3: makeNodeComponent("rectangle3"),
     frame14: makeNodeComponent("frame14"),
     rectangle14: makeNodeComponent("rectangle14"),
+    frame13: makeNodeComponent("frame13"),
+    rectangle13: makeNodeComponent("rectangle13"),
+    frame10: makeNodeComponent("frame10"),
+    rectangle10: makeNodeComponent("rectangle10"),
+    frame7: makeNodeComponent("frame7"),
+    rectangle7: makeNodeComponent("rectangle7"),
+    frame11: makeNodeComponent("frame11"),
+    rectangle11: makeNodeComponent("rectangle11"),
+    frame9: makeNodeComponent("frame9"),
+    rectangle9: makeNodeComponent("rectangle9"),
     frame15: makeNodeComponent("frame15"),
     rectangle15: makeNodeComponent("rectangle15"),
     project: makeNodeComponent("project"),
