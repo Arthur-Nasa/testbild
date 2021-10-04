@@ -45,6 +45,13 @@
   min-width: 0;
   flex-shrink: 0;
 }
+@media (max-width: 1920px) {
+  .banner {
+    overflow: hidden;
+    height: 879px;
+    flex-shrink: 0;
+  }
+}
 @media (min-width: 0px) and (max-width: 800px) {
   .banner {
     height: 990px;
@@ -122,6 +129,11 @@
   left: auto;
   width: 100%;
   margin: -40px 4em 0px;
+}
+@media (max-width: 1920px) {
+  .freeBox___3RtFf {
+    overflow: hidden;
+  }
 }
 @media (min-width: 0px) and (max-width: 800px) {
   .freeBox___3RtFf {
@@ -334,6 +346,7 @@
 @media (max-width: 1920px) {
   .freeBox__pKhgU {
     width: 1916px;
+    overflow: hidden;
   }
 }
 @media (min-width: 0px) and (max-width: 800px) {
@@ -357,6 +370,11 @@
   width: 100%;
   min-width: 0;
   border-bottom: 2px solid #dbaf61;
+}
+@media (max-width: 1920px) {
+  .freeBox__yCg5A {
+    overflow: hidden;
+  }
 }
 .text__npKQc {
   position: relative;
