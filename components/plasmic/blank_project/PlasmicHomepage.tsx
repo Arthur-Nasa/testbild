@@ -220,21 +220,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {p.renderPlasmicSlot({
-                    defaultContents: (
-                      <p.PlasmicLink
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.link___6S3Tg
-                        )}
-                        component={Link}
-                        href={"https://www.plasmic.app/" as const}
-                        platform={"nextjs"}
-                      >
-                        {"Politica de Privacidade"}
-                      </p.PlasmicLink>
-                    ),
-
+                    defaultContents: null,
                     value: args.children
                   })}
                 </Navigation>
