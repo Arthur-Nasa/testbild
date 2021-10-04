@@ -226,6 +226,41 @@
           "id": "3ihfT3oMz",
           "name": "Cover 2",
           "filePath": "../public/plasmic/blank_project/images/cover2.png"
+        },
+        {
+          "id": "HZHjHkAxO",
+          "name": "Rectangle 16",
+          "filePath": "../public/plasmic/blank_project/images/rectangle16.jpeg"
+        },
+        {
+          "id": "bdQ54wQ6-h",
+          "name": "Rectangle 17",
+          "filePath": "../public/plasmic/blank_project/images/rectangle17.png"
+        },
+        {
+          "id": "4ti571GM1s",
+          "name": "Rectangle 18",
+          "filePath": "../public/plasmic/blank_project/images/rectangle18.jpeg"
+        },
+        {
+          "id": "dHFuasPvUF",
+          "name": "Rectangle 19",
+          "filePath": "../public/plasmic/blank_project/images/rectangle19.jpeg"
+        },
+        {
+          "id": "Ko0QDzLkUg",
+          "name": "Rectangle 20",
+          "filePath": "../public/plasmic/blank_project/images/rectangle20.jpeg"
+        },
+        {
+          "id": "1mrwujUsl4",
+          "name": "Rectangle 21",
+          "filePath": "../public/plasmic/blank_project/images/rectangle21.jpeg"
+        },
+        {
+          "id": "gR6pyvZEST",
+          "name": "Rectangle 22",
+          "filePath": "../public/plasmic/blank_project/images/rectangle22.jpeg"
         }
       ],
       "codeComponents": [],

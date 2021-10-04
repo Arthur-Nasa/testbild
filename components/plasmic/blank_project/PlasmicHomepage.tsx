@@ -105,6 +105,37 @@ export type PlasmicHomepage__OverridesType = {
   rectangle9?: p.Flex<"div">;
   frame15?: p.Flex<"div">;
   rectangle15?: p.Flex<"div">;
+  figmaPaste?: p.Flex<"div">;
+  rectangle17?: p.Flex<"div">;
+  rectangle18?: p.Flex<"div">;
+  rectangle19?: p.Flex<"div">;
+  rectangle20?: p.Flex<"div">;
+  rectangle21?: p.Flex<"div">;
+  rectangle22?: p.Flex<"div">;
+  rectangle23?: p.Flex<"div">;
+  rectangle24?: p.Flex<"div">;
+  rectangle25?: p.Flex<"div">;
+  rectangle26?: p.Flex<"div">;
+  rectangle27?: p.Flex<"div">;
+  rectangle28?: p.Flex<"div">;
+  rectangle29?: p.Flex<"div">;
+  rectangle30?: p.Flex<"div">;
+  rectangle31?: p.Flex<"div">;
+  rectangle32?: p.Flex<"div">;
+  rectangle33?: p.Flex<"div">;
+  rectangle34?: p.Flex<"div">;
+  rectangle35?: p.Flex<"div">;
+  rectangle36?: p.Flex<"div">;
+  rectangle37?: p.Flex<"div">;
+  rectangle38?: p.Flex<"div">;
+  rectangle39?: p.Flex<"div">;
+  rectangle40?: p.Flex<"div">;
+  rectangle41?: p.Flex<"div">;
+  rectangle42?: p.Flex<"div">;
+  rectangle43?: p.Flex<"div">;
+  rectangle44?: p.Flex<"div">;
+  rectangle45?: p.Flex<"div">;
+  rectangle46?: p.Flex<"div">;
 };
 
 export interface DefaultHomepageProps {
@@ -636,6 +667,510 @@ function PlasmicHomepage__RenderFunc(props: {
               </p.Stack>
             </p.Stack>
           </div>
+
+          <div className={classNames(defaultcss.all, sty.freeBox__foTho)}>
+            <div
+              data-plasmic-name={"figmaPaste"}
+              data-plasmic-override={overrides.figmaPaste}
+              className={classNames(defaultcss.all, sty.figmaPaste)}
+            >
+              <div className={classNames(defaultcss.all, sty.freeBox__gsDYd)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__ltGec)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__uzMyx)} />
+
+              <div
+                className={classNames(defaultcss.all, sty.freeBox___3Z5Pn)}
+              />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__vrJ5U)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__g0Mld)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__dHhHh)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__zrb4V)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__biHTx)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__oKmLi)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__rLKn)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__ntt8A)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__gHbJ)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__tku4S)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__iyJeh)} />
+
+              <div className={classNames(defaultcss.all, sty.freeBox__xwtpX)} />
+
+              <div
+                data-plasmic-name={"rectangle17"}
+                data-plasmic-override={overrides.rectangle17}
+                className={classNames(defaultcss.all, sty.rectangle17)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle18"}
+                data-plasmic-override={overrides.rectangle18}
+                className={classNames(defaultcss.all, sty.rectangle18)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle19"}
+                data-plasmic-override={overrides.rectangle19}
+                className={classNames(defaultcss.all, sty.rectangle19)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle20"}
+                data-plasmic-override={overrides.rectangle20}
+                className={classNames(defaultcss.all, sty.rectangle20)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle21"}
+                data-plasmic-override={overrides.rectangle21}
+                className={classNames(defaultcss.all, sty.rectangle21)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle22"}
+                data-plasmic-override={overrides.rectangle22}
+                className={classNames(defaultcss.all, sty.rectangle22)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle23"}
+                data-plasmic-override={overrides.rectangle23}
+                className={classNames(defaultcss.all, sty.rectangle23)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle24"}
+                data-plasmic-override={overrides.rectangle24}
+                className={classNames(defaultcss.all, sty.rectangle24)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle25"}
+                data-plasmic-override={overrides.rectangle25}
+                className={classNames(defaultcss.all, sty.rectangle25)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle26"}
+                data-plasmic-override={overrides.rectangle26}
+                className={classNames(defaultcss.all, sty.rectangle26)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle27"}
+                data-plasmic-override={overrides.rectangle27}
+                className={classNames(defaultcss.all, sty.rectangle27)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle28"}
+                data-plasmic-override={overrides.rectangle28}
+                className={classNames(defaultcss.all, sty.rectangle28)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle29"}
+                data-plasmic-override={overrides.rectangle29}
+                className={classNames(defaultcss.all, sty.rectangle29)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle30"}
+                data-plasmic-override={overrides.rectangle30}
+                className={classNames(defaultcss.all, sty.rectangle30)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle31"}
+                data-plasmic-override={overrides.rectangle31}
+                className={classNames(defaultcss.all, sty.rectangle31)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle32"}
+                data-plasmic-override={overrides.rectangle32}
+                className={classNames(defaultcss.all, sty.rectangle32)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle33"}
+                data-plasmic-override={overrides.rectangle33}
+                className={classNames(defaultcss.all, sty.rectangle33)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle34"}
+                data-plasmic-override={overrides.rectangle34}
+                className={classNames(defaultcss.all, sty.rectangle34)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle35"}
+                data-plasmic-override={overrides.rectangle35}
+                className={classNames(defaultcss.all, sty.rectangle35)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle36"}
+                data-plasmic-override={overrides.rectangle36}
+                className={classNames(defaultcss.all, sty.rectangle36)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle37"}
+                data-plasmic-override={overrides.rectangle37}
+                className={classNames(defaultcss.all, sty.rectangle37)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle38"}
+                data-plasmic-override={overrides.rectangle38}
+                className={classNames(defaultcss.all, sty.rectangle38)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle39"}
+                data-plasmic-override={overrides.rectangle39}
+                className={classNames(defaultcss.all, sty.rectangle39)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle40"}
+                data-plasmic-override={overrides.rectangle40}
+                className={classNames(defaultcss.all, sty.rectangle40)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle41"}
+                data-plasmic-override={overrides.rectangle41}
+                className={classNames(defaultcss.all, sty.rectangle41)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle42"}
+                data-plasmic-override={overrides.rectangle42}
+                className={classNames(defaultcss.all, sty.rectangle42)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle43"}
+                data-plasmic-override={overrides.rectangle43}
+                className={classNames(defaultcss.all, sty.rectangle43)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle44"}
+                data-plasmic-override={overrides.rectangle44}
+                className={classNames(defaultcss.all, sty.rectangle44)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle45"}
+                data-plasmic-override={overrides.rectangle45}
+                className={classNames(defaultcss.all, sty.rectangle45)}
+              />
+
+              <div
+                data-plasmic-name={"rectangle46"}
+                data-plasmic-override={overrides.rectangle46}
+                className={classNames(defaultcss.all, sty.rectangle46)}
+              />
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__wImJz
+                )}
+              >
+                {"The Beauty of Contrast"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__gUA4
+                )}
+              >
+                {"We turn you on to pro lighting strategies to highlight"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text___15Wy
+                )}
+              >
+                {"the most of indoor and outdoor rooms"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__tmsnn
+                )}
+              >
+                {"Beautiful New Kitchen"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__xhYyv
+                )}
+              >
+                {
+                  "great deal with awesome new features it is realy incredible design and price."
+                }
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__aoBaW
+                )}
+              >
+                {"Total Price: $15,000"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__pfOmU
+                )}
+              >
+                {"40 m²"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__zbIkZ
+                )}
+              >
+                {"Green Garden"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__dOtFw
+                )}
+              >
+                {
+                  "great deal with awesome new features it is realy incredible design and price."
+                }
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text___0Lqmy
+                )}
+              >
+                {"Total Price: $3,000"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__cwp4Z
+                )}
+              >
+                {"35 m²"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text___5Kf9T
+                )}
+              >
+                {"The New House"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__xOL1
+                )}
+              >
+                {
+                  "great deal with awesome new features it is realy incredible design and price."
+                }
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__l3Ekd
+                )}
+              >
+                {"Total Price: $23,500"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__nwYEk
+                )}
+              >
+                {"120 m²"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__a5LIh
+                )}
+              >
+                {"Great Town Flat"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__owgdU
+                )}
+              >
+                {
+                  "great deal with awesome new features it is realy incredible design and price."
+                }
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__zZprx
+                )}
+              >
+                {"Total Price: $35,000"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__wy4Sm
+                )}
+              >
+                {"180 m²"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__nOsVn
+                )}
+              >
+                {"Salon with Space"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__fQhc3
+                )}
+              >
+                {
+                  "great deal with awesome new features it is realy incredible design and price."
+                }
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__gIcO3
+                )}
+              >
+                {"Total Price: $8,000"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__cmbXm
+                )}
+              >
+                {"80 m²"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__mfKt
+                )}
+              >
+                {"Village Villa"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__iIkuy
+                )}
+              >
+                {
+                  "great deal with awesome new features it is realy incredible design and price."
+                }
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__suhQo
+                )}
+              >
+                {"Total Price: $42,500"}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__bKuw
+                )}
+              >
+                {"320 m²"}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -680,7 +1215,38 @@ const PlasmicDescendants = {
     "frame9",
     "rectangle9",
     "frame15",
-    "rectangle15"
+    "rectangle15",
+    "figmaPaste",
+    "rectangle17",
+    "rectangle18",
+    "rectangle19",
+    "rectangle20",
+    "rectangle21",
+    "rectangle22",
+    "rectangle23",
+    "rectangle24",
+    "rectangle25",
+    "rectangle26",
+    "rectangle27",
+    "rectangle28",
+    "rectangle29",
+    "rectangle30",
+    "rectangle31",
+    "rectangle32",
+    "rectangle33",
+    "rectangle34",
+    "rectangle35",
+    "rectangle36",
+    "rectangle37",
+    "rectangle38",
+    "rectangle39",
+    "rectangle40",
+    "rectangle41",
+    "rectangle42",
+    "rectangle43",
+    "rectangle44",
+    "rectangle45",
+    "rectangle46"
   ],
   banner: ["banner", "bg", "logo", "titleSubtitle", "form", "botao"],
   bg: ["bg", "logo", "titleSubtitle", "form", "botao"],
@@ -717,7 +1283,70 @@ const PlasmicDescendants = {
   frame9: ["frame9", "rectangle9"],
   rectangle9: ["rectangle9"],
   frame15: ["frame15", "rectangle15"],
-  rectangle15: ["rectangle15"]
+  rectangle15: ["rectangle15"],
+  figmaPaste: [
+    "figmaPaste",
+    "rectangle17",
+    "rectangle18",
+    "rectangle19",
+    "rectangle20",
+    "rectangle21",
+    "rectangle22",
+    "rectangle23",
+    "rectangle24",
+    "rectangle25",
+    "rectangle26",
+    "rectangle27",
+    "rectangle28",
+    "rectangle29",
+    "rectangle30",
+    "rectangle31",
+    "rectangle32",
+    "rectangle33",
+    "rectangle34",
+    "rectangle35",
+    "rectangle36",
+    "rectangle37",
+    "rectangle38",
+    "rectangle39",
+    "rectangle40",
+    "rectangle41",
+    "rectangle42",
+    "rectangle43",
+    "rectangle44",
+    "rectangle45",
+    "rectangle46"
+  ],
+  rectangle17: ["rectangle17"],
+  rectangle18: ["rectangle18"],
+  rectangle19: ["rectangle19"],
+  rectangle20: ["rectangle20"],
+  rectangle21: ["rectangle21"],
+  rectangle22: ["rectangle22"],
+  rectangle23: ["rectangle23"],
+  rectangle24: ["rectangle24"],
+  rectangle25: ["rectangle25"],
+  rectangle26: ["rectangle26"],
+  rectangle27: ["rectangle27"],
+  rectangle28: ["rectangle28"],
+  rectangle29: ["rectangle29"],
+  rectangle30: ["rectangle30"],
+  rectangle31: ["rectangle31"],
+  rectangle32: ["rectangle32"],
+  rectangle33: ["rectangle33"],
+  rectangle34: ["rectangle34"],
+  rectangle35: ["rectangle35"],
+  rectangle36: ["rectangle36"],
+  rectangle37: ["rectangle37"],
+  rectangle38: ["rectangle38"],
+  rectangle39: ["rectangle39"],
+  rectangle40: ["rectangle40"],
+  rectangle41: ["rectangle41"],
+  rectangle42: ["rectangle42"],
+  rectangle43: ["rectangle43"],
+  rectangle44: ["rectangle44"],
+  rectangle45: ["rectangle45"],
+  rectangle46: ["rectangle46"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -760,6 +1389,37 @@ type NodeDefaultElementType = {
   rectangle9: "div";
   frame15: "div";
   rectangle15: "div";
+  figmaPaste: "div";
+  rectangle17: "div";
+  rectangle18: "div";
+  rectangle19: "div";
+  rectangle20: "div";
+  rectangle21: "div";
+  rectangle22: "div";
+  rectangle23: "div";
+  rectangle24: "div";
+  rectangle25: "div";
+  rectangle26: "div";
+  rectangle27: "div";
+  rectangle28: "div";
+  rectangle29: "div";
+  rectangle30: "div";
+  rectangle31: "div";
+  rectangle32: "div";
+  rectangle33: "div";
+  rectangle34: "div";
+  rectangle35: "div";
+  rectangle36: "div";
+  rectangle37: "div";
+  rectangle38: "div";
+  rectangle39: "div";
+  rectangle40: "div";
+  rectangle41: "div";
+  rectangle42: "div";
+  rectangle43: "div";
+  rectangle44: "div";
+  rectangle45: "div";
+  rectangle46: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -859,6 +1519,37 @@ export const PlasmicHomepage = Object.assign(
     rectangle9: makeNodeComponent("rectangle9"),
     frame15: makeNodeComponent("frame15"),
     rectangle15: makeNodeComponent("rectangle15"),
+    figmaPaste: makeNodeComponent("figmaPaste"),
+    rectangle17: makeNodeComponent("rectangle17"),
+    rectangle18: makeNodeComponent("rectangle18"),
+    rectangle19: makeNodeComponent("rectangle19"),
+    rectangle20: makeNodeComponent("rectangle20"),
+    rectangle21: makeNodeComponent("rectangle21"),
+    rectangle22: makeNodeComponent("rectangle22"),
+    rectangle23: makeNodeComponent("rectangle23"),
+    rectangle24: makeNodeComponent("rectangle24"),
+    rectangle25: makeNodeComponent("rectangle25"),
+    rectangle26: makeNodeComponent("rectangle26"),
+    rectangle27: makeNodeComponent("rectangle27"),
+    rectangle28: makeNodeComponent("rectangle28"),
+    rectangle29: makeNodeComponent("rectangle29"),
+    rectangle30: makeNodeComponent("rectangle30"),
+    rectangle31: makeNodeComponent("rectangle31"),
+    rectangle32: makeNodeComponent("rectangle32"),
+    rectangle33: makeNodeComponent("rectangle33"),
+    rectangle34: makeNodeComponent("rectangle34"),
+    rectangle35: makeNodeComponent("rectangle35"),
+    rectangle36: makeNodeComponent("rectangle36"),
+    rectangle37: makeNodeComponent("rectangle37"),
+    rectangle38: makeNodeComponent("rectangle38"),
+    rectangle39: makeNodeComponent("rectangle39"),
+    rectangle40: makeNodeComponent("rectangle40"),
+    rectangle41: makeNodeComponent("rectangle41"),
+    rectangle42: makeNodeComponent("rectangle42"),
+    rectangle43: makeNodeComponent("rectangle43"),
+    rectangle44: makeNodeComponent("rectangle44"),
+    rectangle45: makeNodeComponent("rectangle45"),
+    rectangle46: makeNodeComponent("rectangle46"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
