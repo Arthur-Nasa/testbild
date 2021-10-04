@@ -20,7 +20,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .navigation__nJdmI:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -52,7 +52,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .banner {
     height: 990px;
     flex-shrink: 0;
@@ -81,7 +81,7 @@
   justify-content: flex-start;
   align-content: center;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .bg {
     left: 0px;
     top: 0px;
@@ -99,7 +99,7 @@
     min-height: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .bg > :global(.__wab_flex-container) {
     flex-direction: column;
     flex-wrap: wrap;
@@ -112,7 +112,7 @@
     height: calc(100% + 0%);
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .bg > :global(.__wab_flex-container) > *,
   .bg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .bg > :global(.__wab_flex-container) > picture > img,
@@ -138,7 +138,7 @@
     margin-top: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .freeBox___3RtFf {
     position: absolute;
     top: 0px;
@@ -156,7 +156,7 @@
 .logo:global(.__wab_instance) {
   height: 157px;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .logo:global(.__wab_instance) {
     width: 136px;
     height: 182px;
@@ -173,7 +173,7 @@
   bottom: 0;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .navigation__raeq6:global(.__wab_instance) {
     z-index: 22;
     left: auto;
@@ -189,7 +189,7 @@
   height: auto;
   align-self: center;
   min-width: 0;
-  margin: 4em 4em 4em 30em;
+  margin: auto;
 }
 .columns__zQzMh > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -210,15 +210,15 @@
   margin-left: 0px;
   margin-top: 0px;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .columns__zQzMh {
     flex-direction: column;
     align-self: center;
-    margin-left: calc(30em + 0%) !important;
-    margin-top: calc(4em + 0%) !important;
+    margin-top: calc(5em + 0%) !important;
+    margin-left: auto !important;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .columns__zQzMh > :global(.__wab_flex-container) {
     flex-direction: column;
     margin-left: calc(0px - 0px);
@@ -227,7 +227,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .columns__zQzMh > :global(.__wab_flex-container) > *,
   .columns__zQzMh > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .columns__zQzMh > :global(.__wab_flex-container) > picture > img,
@@ -249,8 +249,9 @@
   width: 0;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5em;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .column__xxgqt {
     width: auto;
   }
@@ -262,7 +263,7 @@
   align-self: flex-start;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .titleSubtitle:global(.__wab_instance) {
     align-self: center;
     left: auto;
@@ -270,7 +271,7 @@
     z-index: 1;
     position: relative;
     flex-shrink: 0;
-    margin: 5em 0px 0px 5em;
+    margin: auto;
   }
 }
 .column___8Bcnx {
@@ -283,7 +284,7 @@
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .column___8Bcnx {
     width: auto;
   }
@@ -306,7 +307,7 @@
     margin: 0em;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .form:global(.__wab_instance) {
     align-self: baseline;
     left: auto;
@@ -315,7 +316,7 @@
     position: relative;
     bottom: auto;
     right: auto;
-    margin: 5em 0em 5em 10em;
+    margin: auto;
   }
 }
 .text__z6Nuy {
@@ -328,7 +329,7 @@
   z-index: 1;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .botao:global(.__wab_instance) {
     z-index: 12;
     left: -5px;
@@ -347,16 +348,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 763px;
+  width: 1598px;
   margin: 0px 0em 0em;
 }
 @media (max-width: 1920px) {
   .freeBox__pKhgU {
-    width: 1916px;
+    width: 100%;
     overflow: hidden;
+    min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .freeBox__pKhgU {
     margin-left: 2em;
     margin-right: 2em;
@@ -384,7 +386,7 @@
     overflow: hidden;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .freeBox__yCg5A {
     margin-right: 3em;
     width: 689px;
@@ -400,18 +402,19 @@
 .freeBox__sXeOz {
   display: flex;
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
   left: auto;
   top: auto;
   width: 80%;
   align-self: center;
+  overflow: hidden;
 }
 .freeBox__sXeOz > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: flex-start;
   margin-left: calc(0px - 15px);
   width: calc(100% + 15px);
   margin-top: calc(0px - 5px);
@@ -428,7 +431,7 @@
   margin-left: 15px;
   margin-top: 5px;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .freeBox__sXeOz {
     left: auto;
     top: auto;
@@ -440,7 +443,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .freeBox__sXeOz > :global(.__wab_flex-container) {
     align-content: center;
     justify-content: flex-start;
@@ -453,7 +456,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .freeBox__sXeOz > :global(.__wab_flex-container) > *,
   .freeBox__sXeOz > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__sXeOz > :global(.__wab_flex-container) > picture > img,
@@ -473,6 +476,8 @@
   width: 100%;
   height: auto;
   align-self: center;
+  left: auto;
+  top: auto;
   min-width: 0;
 }
 .columns__ko6O0 > :global(.__wab_flex-container) {
@@ -513,7 +518,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame8 {
     left: auto;
     top: auto;
@@ -546,7 +551,7 @@
   left: 28.99%;
   width: 62.5%;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .text__lATer {
     width: 200px;
     height: 48px;
@@ -563,7 +568,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame {
     left: auto;
     top: auto;
@@ -606,7 +611,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame5 {
     left: auto;
     top: auto;
@@ -634,7 +639,7 @@
   left: 28.99%;
   width: 69%;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .text__wlXjy {
     width: 200px;
     height: 48px;
@@ -651,7 +656,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame6 {
     left: auto;
     top: auto;
@@ -684,7 +689,7 @@
   left: 28.99%;
   width: 52%;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .text___84Br {
     width: 200px;
     height: 48px;
@@ -701,7 +706,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame4 {
     left: auto;
     top: auto;
@@ -743,7 +748,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame2 {
     left: auto;
     top: auto;
@@ -785,7 +790,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame12 {
     left: auto;
     top: auto;
@@ -827,7 +832,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame3 {
     left: auto;
     top: auto;
@@ -879,7 +884,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame14 {
     left: auto;
     top: auto;
@@ -907,7 +912,7 @@
   left: 28.99%;
   width: 68%;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .text__jAtgL {
     width: 200px;
     height: 48px;
@@ -924,7 +929,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame13 {
     left: auto;
     top: auto;
@@ -966,7 +971,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame10 {
     left: auto;
     top: auto;
@@ -1008,7 +1013,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame7 {
     left: auto;
     top: auto;
@@ -1050,7 +1055,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame11 {
     left: auto;
     top: auto;
@@ -1092,7 +1097,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame9 {
     left: auto;
     top: auto;
@@ -1134,7 +1139,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .frame15 {
     left: auto;
     top: auto;
@@ -1180,7 +1185,7 @@
   flex-wrap: wrap;
   align-self: center;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .freeBox__klKyI {
     width: 100%;
     min-width: 0;
@@ -1194,7 +1199,7 @@
   flex-shrink: 0;
   padding: 4em;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .project {
     display: flex;
     flex-direction: column;
@@ -1218,7 +1223,7 @@
   min-height: 0;
   padding: 4em;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .projectCover {
     position: relative;
     left: auto;
@@ -1236,12 +1241,13 @@
   left: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .bg2 {
     align-self: flex-start;
-    width: 801px;
+    width: 100%;
     height: 100%;
     overflow: hidden;
+    min-width: 0;
     min-height: 0;
   }
 }
@@ -1275,12 +1281,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .projectDetails {
     position: relative;
     left: auto;
     top: auto;
-    width: 795px;
+    width: 100%;
+    min-width: 0;
   }
 }
 .projectTitleDescription {
@@ -1311,7 +1318,7 @@
   > img {
   margin-top: 8px;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .projectTitleDescription {
     align-self: flex-start;
   }
@@ -1338,7 +1345,7 @@
   position: relative;
   width: 286px;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .projectDescription {
     height: auto;
     width: 314px;
